@@ -2,7 +2,7 @@ module.exports = {
   port: 8080,
   db: {
     prod: process.env.DATABASE_URL || 'mongodb+srv://chiefwebofficer:4344344jJ!@cluster0.nna35ug.mongodb.net/?retryWrites=true&w=majority',
-    test: 'mongodb://localhost/reddit_test',
+    test: 'mongodb+srv://chiefwebofficer:4344344jJ!@cluster0.nna35ug.mongodb.net/?retryWrites=true&w=majority',
     options: {
       useNewUrlParser: true,
       useCreateIndex: true,
